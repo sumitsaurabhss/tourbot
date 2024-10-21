@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.chat-container {
+    width: 85%;
+    margin: 20px auto;
+}
+.chat-box {
+    width: 100%;
+    min-height: 80vh;
+    max-height: 80vh;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.chat-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+}
+.chat-submit {
+    padding: 10px;
+}
